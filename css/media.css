@@ -1,0 +1,85 @@
+@media (max-width: 768px) {
+    .login__buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signin__button {
+        margin-right: 0;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login__buttons .signin__button {
+        margin-bottom: 20px;
+    }
+
+    .main__content {
+        margin-bottom: 70px;
+    }
+    .main__buttons {
+        display: flex;
+    }
+
+    .increase__traffic__wrapper {
+        flex-direction: column;
+    }
+
+    .traffic__content {
+        margin-bottom: 50px;
+    }
+
+    .simple__cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .invest__wrapper {
+        flex-direction: column;
+    }
+
+    .invest__content {
+        margin-bottom: 50px;
+    }
+
+    .help__wrapper {
+        flex-direction: column;
+    }
+
+    .help__image {
+        margin-bottom: 50px;
+    }
+
+    .help__cards {
+        display: flex;
+        align-items: center;
+    }
+
+    .help__card {
+        flex-direction: row !important;
+    }
+
+    .form__wrapper {
+        height: 400px !important;
+    }
+
+    .background__left, .background__right {
+        display: none;
+    }
+
+    .your__choise__cards {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 510px) {
+    .help__cards{
+        justify-content: center;
+    }
+}
+
